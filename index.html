@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>JK  Talent SOLUTIONS  </title>
+<title>JK  TALENT SOLUTIONS  </title>
 <!-- Bootstrap -->
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- Font Awesome CSS-->
@@ -19,6 +19,7 @@
 <link href="assets/css/magnific-popup.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="css/style.css" rel="stylesheet">
+<script src="index.js"></script>
 <!-- Favicon -->
 <!-- <link rel="stylesheet" href="font.css"> -->
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -31,36 +32,35 @@
 </head>
 <body>
 <!-- Loader -->
-<div id="dvLoading"></div>
+<div id="dvLoading" style="display: none;"></div>
 <!-- Header Start -->
-<header class="wow fadeInDown" data-offset-top="197" data-spy="affix">
+<header class="wow fadeInDown" data-offset-top="197" data-spy="affix" style="visibility:visible">
   <div class="logo-wrapper"> 
     <!-- Logo -->
     <div class="container">
       <div class="row"> 
         <!-- Logo -->
-        <div class="col-sm-12 col-md-3 hidden-xs logoimg"> <a href="index.php"><img src="images/logo.png" alt="JK GLOBAL IT SOLUTIONS"/></a> </div>
+        <div class="col-sm-12 col-md-3 hidden-xs logoimg"> <a href="index.html"><img src="images/logo.png" alt="JK GLOBAL IT SOLUTIONS"/></a> </div>
         <!-- Navigation -->
         <div class="col-sm-12 col-md-9">
           <nav class="navbar navbar-default pull-right"> 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand logoimg" href="index.php"><img src="images/logo.png" alt="Riconz Technologies"/></a> </div>
+              <a class="navbar-brand logoimg" href="index.html"><img src="images/logo.png" alt="JKTalentSolutions"/></a> </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Home</a></li>
-                 <li><a href="about-us.php">About Us</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="careers.php">Careers</a> </li>
-                
-                <li><a href="contact-us.php">Contact Us</a></li>
+                <li class="active" ><a href="index.html">Home</a></li>
+                 <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <!-- <li><a href="careers.html">Careers</a> </li> -->
+                <li><a href="contact-us.html">Contact Us</a></li>
               </ul>
             </div>
             <!-- /.navbar-collapse -->
             
-            <div class="login pull-right hidden-xs"> <a href="mailto:vijayasekaran.r@riconz.com">info@riconz.com</a></div>
+            <div class="login pull-right hidden-xs"> <a href="mailto:">info@JKTalentSolutions.com</a></div>
           </nav>
         </div>
       </div>
@@ -75,22 +75,22 @@
     <div class="overlay"></div>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
+      <div class="item slides">
+        <div class="slide-1"><img src="images/banner1.jpg" alt="JK Talent Solutions"></div>
+        <div class="hero">
+          <h1>We offer <span>Multiple</span> job vacancies right now!</h1>
+          <p>Find your desire one in a minute</p>
+        </div>
+      </div>
       <div class="item slides active">
-        <div class="slide-1"><img src="images/banner1.jpg" alt="Riconz Technologies"/></div>
+        <div class="slide-2"><img src="images/banner2.jpg" alt="JK Talent Solutions"></div>
         <div class="hero">
           <h1>We offer <span>Multiple</span> job vacancies right now!</h1>
           <p>Find your desire one in a minute</p>
         </div>
       </div>
       <div class="item slides">
-        <div class="slide-2"><img src="images/banner2.jpg" alt="Riconz Technologies"/></div>
-        <div class="hero">
-          <h1>We offer <span>Multiple</span> job vacancies right now!</h1>
-          <p>Find your desire one in a minute</p>
-        </div>
-      </div>
-      <div class="item slides">
-        <div class="slide-3"><img src="images/banner3.jpg" alt="Riconz Technologies"/></div>
+        <div class="slide-3"><img src="images/banner3.jpg" alt="JK Talent Solutions"></div>
         <div class="hero">
           <h1>We offer <span>Multiple</span> job vacancies right now!</h1>
           <p>Find your desire one in a minute</p>
@@ -100,7 +100,6 @@
     <div class="slide-arrows"><a class="left carousel-control" href="#bs-carousel" data-slide="prev"><span class="transition3s glyphicon glyphicon-chevron-left fa fa-angle-left"></span></a> <a class="right carousel-control" href="#bs-carousel" data-slide="next"><span class="transition3s glyphicon glyphicon-chevron-right fa fa-angle-right"></span></a></div>
   </div>
 </div>
-<!-- Banner Wrapper End --> 
 <!-- Professional Search Start -->
 <div class="professional-search">
   <div class="container">
@@ -219,73 +218,8 @@
   </div>
 </div>
 <!-- Our counters End --> 
-<!-- Latest jobs Wrapper Start -->
-<div class="latest-jobs-wrapper">
-  <div class="container">
-    <div class="title">
-      <h2>Latest <span>Jobs</span></h2>
-      <h3>Here you can see</h3>
-    </div>
-  </div>
-  <div class="container">
-    <div class="single-jobs"> <i class="fa fa-twitter"></i>
-      <div class="job-heading">
-        <h3>Laravel developer</h3>
-        <p>Client , Permanent - Chennai</p>
-      </div>
-      <div class="our-location color1"> <span class="fa fa-map-marker" aria-hidden="true"></span>
-        <div class="location-content">
-          <h3>Chennai </h3>
-          <span>Full-Time</span> </div>
-      </div>
-    </div>
-    <div class="single-jobs"> <i class="fa fa-facebook"></i>
-      <div class="job-heading">
-        <h3>Business Analyst</h3>
-        <p>Mobile Development Company, Permanent - Chennai</p>
-      </div>
-      <div class="our-location color2"> <span class="fa fa-map-marker" aria-hidden="true"></span>
-        <div class="location-content">
-          <h3>Chennai</h3>
-          <span>Full-Time</span> </div>
-      </div>
-    </div>
-    <div class="single-jobs"> <i class="fa fa-google-plus"></i>
-      <div class="job-heading">
-        <h3>PHP Developer</h3>
-        <p>Mobile Development Company, Permanent - Chennai</p>
-      </div>
-      <div class="our-location color3"> <span class="fa fa-map-marker" aria-hidden="true"></span>
-        <div class="location-content">
-          <h3>Chennai</h3>
-          <span>Full-Time</span> </div>
-      </div>
-    </div>
-    <div class="single-jobs"> <i class="fa fa-linkedin"></i>
-      <div class="job-heading">
-        <h3>Business Development Executive</h3>
-        <p>Software Development Company, Permanent - Chennai</p>
-      </div>
-      <div class="our-location color4"> <span class="fa fa-map-marker" aria-hidden="true"></span>
-        <div class="location-content">
-          <h3>Chennai</h3>
-          <span>Full-Time</span> </div>
-      </div>
-    </div>
-    <div class="single-jobs last"> <i class="fa fa-skype"></i>
-      <div class="job-heading">
-        <h3>SEO Analyst</h3>
-        <p>IT Software Development Company, Permanent - Chennai</p>
-      </div>
-      <div class="our-location color5"> <span class="fa fa-map-marker" aria-hidden="true"></span>
-        <div class="location-content">
-          <h3>Chennai</h3>
-          <span>Full-Time</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Latest jobs Wrapper End --> 
+
+
 
 <!-- Popular Search Wrapper Start -->
 <div class="popular-search-wrapper">
@@ -307,11 +241,11 @@
           </ul>
           <ul>
            
-            <li>Software & Web</li>
+            <li>Software &amp; Web</li>
           </ul>
           <ul>
             
-            <li>Sales & BD</li>
+            <li>Sales &amp; BD</li>
           </ul>
           <ul>
            
@@ -323,7 +257,7 @@
           </ul>
           <ul>
            
-            <li>Accounts & Finance</li>
+            <li>Accounts &amp; Finance</li>
           </ul>
           <ul class="last">
            
@@ -342,7 +276,7 @@
 
           </ul>
           <ul>
-            <li>Teaching & Education</li>
+            <li>Teaching &amp; Education</li>
           </ul>
           <ul>
             <li>Writing</li>
@@ -423,7 +357,7 @@
         <div class="col-sm-4">
           <div class="single-secton">
             <h3>Need Help ?</h3>
-            <p><i class="fa fa-envelope"></i> <span>info@riconz.com</span></p>
+            <p><i class="fa fa-envelope"></i> <span>info@JK Talent Solutions.com</span></p>
           </div>
         </div>
       </div>
@@ -433,7 +367,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-4">
         <div class="single-section-two"> 
-          <p>Established in 2013, Riconz is the provider of Talent Acquisition and Recruitment Process to the Technology and Knowledge Services companies across India. Riconz aims to provide fast, simple and cost-effective solutions for our clients, through strategic advice and solutions in the areas of Recruitment process. Riconz was originated from “Ri-Right”,“Con-Consulting” and “z-zeal of service” thus offers right consulting for people as well as clients. We follow a systematic approach in recruiting “right person for right job at right time.”
+          <p>Established in 2019, JK Talent Solutions is the provider of Talent Acquisition and Recruitment Process to the Technology and Knowledge Services companies across India. Riconz aims to provide fast, simple and cost-effective solutions for our clients, through strategic advice and solutions in the areas of Recruitment process. Riconz was originated from “Ri-Right”,“Con-Consulting” and “z-zeal of service” thus offers right consulting for people as well as clients. We follow a systematic approach in recruiting “right person for right job at right time.”
 </p>
         </div>
       </div>
@@ -441,11 +375,11 @@
         <div class="single-section-two white">
           <h3>Company</h3>
           <ul>
-            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="about-us.html">About Us</a></li>
             <li><a href="#">Help Center</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="careers.php">Careers</a></li>
-            <li><a href="contact-us.php">Contact Us</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -453,10 +387,10 @@
         <div class="single-section-two white">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="services.php">Search For Professionals</a></li>
-            <li><a href="services.php">Latest Jobs</a></li>
-            <li><a href="services.php">Browse by categories</a></li>
-            <li><a href="services.php">Services</a></li>
+            <li><a href="services.html">Search For Professionals</a></li>
+            <li><a href="services.html">Latest Jobs</a></li>
+            <li><a href="services.html">Browse by categories</a></li>
+            <li><a href="services.html">Services</a></li>
           </ul>
         </div>
       </div>
@@ -466,10 +400,10 @@
           <div class="form">
 		  <form>
             <div class="form-group">
-              <input placeholder="Enter your Name" id="exampleInputName2" class="form-control first" type="text" required>
+              <input placeholder="Enter your Name" id="exampleInputName2" class="form-control first" type="text" required="">
             </div>
             <div class="form-group">
-              <input placeholder="Enter your Email" id="exampleInputEmail" class="form-control first" type="email" required>
+              <input placeholder="Enter your Email" id="exampleInputEmail" class="form-control first" type="email" required="">
             </div>
             <div class="form-group">
               <input placeholder="Enter your Message" id="exampleInputMessage" class="form-control first message" type="text">
@@ -491,7 +425,7 @@
 	var d=new Date();
 	document.write(d.getFullYear());
 	</script> 
-      JK Global IT solutions| All Rights Reserved.</p>
+     JK Talent Solutions| All Rights Reserved.</p>
   </div>
 </div>
 <!-- Copyright styles End --> 
@@ -505,8 +439,6 @@
 <script src="assets/owl-carousel/js/owl.carousel.js"></script> 
 <script src="assets/wow/wow.min.js"></script> 
 <script src="js/custom.js"></script>
-
+<a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
 </body>
-
-
 </html>
